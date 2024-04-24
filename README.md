@@ -1,14 +1,14 @@
 # Project Documentation
 
 ## Overview
-This project is a RESTful API for a note-taking application developed using Node.js, Express, and MongoDB. The purpose of the project is to provide a backend service for managing and persisting notes with functionalities to create, retrieve, and delete notes.
+This project is a RESTful API for a note-taking application developed using Node.js, Express, and MongoDB. The purpose of the project is to provide a backend service for managing and persisting notes with functionalities to create, retrieve, and delete notes. The frontend is built using React to ensure scalability, readability, and modularity of the frontend code. The notes are hosted and kept in a MongoDB database to ensure that the notes do not disappear after refreshing the page. Express.js and Node.js are used to frame the backend API and facilitate communication between the server and client. 
 
 ## File Structure
 The project structure is organized as follows:
 - `/backend`: Contains the server-side code
   - `/models`: Defines the data models (e.g., `Note` model)
   - `/routes`: Handles different API routes for note operations
-  - `/controllers`: Contains business logic for handling requests
+
 
 ## Key Components
 ### Models
