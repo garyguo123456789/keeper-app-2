@@ -22,7 +22,10 @@ The project structure is organized as follows:
 - `/backend`: Contains the server-side code
   - `/models`: Defines the data models (e.g., `Note` model)
   - `/routes`: Handles different API routes for note operations
+- `/public`:
+- `/src`:
 
+The backend and frontend code are separated for best practices, and modifications in one shall in general not impact the other. 
 
 ## Key Components
 ### Models
@@ -33,8 +36,6 @@ The `Note` model represents a note entity in the database with fields `title` an
 - `GET /`: Retrieves all notes
 - `DELETE /:id`: Deletes a note by ID
 
-### Controllers
-Controllers contain the request handling logic for each API endpoint defined in the routes.
 
 ## API Endpoints
 ### POST /
@@ -66,8 +67,9 @@ Controllers contain the request handling logic for each API endpoint defined in 
 To run the project locally:
 1. Clone the repository from GitHub.
 2. Install dependencies using `npm install`.
-3. Start the server with `npm start` or `node server.js`.
-4. The server will run on `http://localhost:3000`.
+3. Ensure that the command is currently in the backend folder by  `cd backend/` if necessary.
+4. Start the server with `` or `node server.js`.
+5. The server will run on `http://localhost:3000`.
 
 ## Dependencies
 The project uses the following dependencies:
@@ -75,15 +77,12 @@ The project uses the following dependencies:
 - Mongoose: MongoDB object modeling tool
 - Body-parser: Parse incoming request bodies in a middleware
 
-## Deployment
-For deployment, you can use platforms like Heroku, AWS, or Docker. Make sure to set environment variables for database connection and other configurations.
 
 ## Testing
 You can test the API endpoints using tools like Postman or writing unit tests using Jest or Mocha.
 
-## Contributors
-- John Doe (@johndoe)
-- Jane Smith (@janesmith)
+## Author
+Haolin Guo
 
 ## License
 This project is licensed under the MIT License - see the LICENSE.md file for details.
