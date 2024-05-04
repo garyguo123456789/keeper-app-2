@@ -71,7 +71,6 @@ To run the project locally:
 3. Ensure that the command is currently in the backend folder by  `cd backend/` if necessary.
 4. Start the server with `` or `node server.js`.
 5. The server will run on `http://localhost:3000`.
-6. The front-end has been deployed on Vercel. 
 
 ## Dependencies
 The project uses the following dependencies:
